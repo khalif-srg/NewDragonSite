@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 60px;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.navbar a {
+  color: #191919;
+  text-decoration: none;
+  font-size: 13px;
+  letter-spacing: 0.1px;
+}
+
+.navbar a:hover {
+  opacity: 0.5;
+}
+
+.navbar-logo {
+  height: 64px;
+  width: auto;
+  display: block;
+}

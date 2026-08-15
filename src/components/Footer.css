@@ -1,0 +1,12 @@
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  font-family: 'anton', sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.2px;
+  color: #191919;
+}
+
+.footer p:last-child {
+  opacity: 0.5;
+}
