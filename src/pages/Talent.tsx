@@ -10,7 +10,7 @@ const talents = [
     category: 'Creative',
   },
   {
-    name: 'Mikhaeil Noor',
+    name: 'Mikhaiel',
     role: 'Fashion, Influencer',
     image: '/images/MikhaielMain.jpeg',
     category: 'Talent',
@@ -62,7 +62,7 @@ function Talent() {
           <div className="talent-card" key={i}>
             <div className="talent-image-box">
               <img src={t.image} alt={t.name} />
-              <p className="talent-overlay-name">{t.name}</p>
+              <p className="talent-overlay-name"><em>{t.name}</em></p>
             </div>
           </div>
         ))}
