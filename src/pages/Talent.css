@@ -81,3 +81,27 @@
     grid-template-columns: 1fr;
   }
 }
+
+.talent-filters {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-bottom: 40px;
+}
+
+.filter-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #191919;
+  padding: 0;
+}
+
+.filter-button.active {
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
