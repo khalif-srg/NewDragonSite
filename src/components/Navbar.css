@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 40px 60px;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Inter', sans-serif;
 }
 
 .navbar-left {
